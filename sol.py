@@ -194,7 +194,18 @@ while a >= b:
         print("Buzz")
     elif b % 3 ==0:
         print("Fizz")
-    b += 1"""        
+    b += 1"""     
+
+#Reversing a given number:
+num = int(input("Enter a Number: "))
+reversed_num = 0
+original = num
+while num >0:
+    a = num % 10
+    reversed_num = reversed_num*10 + a
+    num = num // 10
+print(f"Reversed number of {(original)} is: {reversed_num}")
+
             
 
 
