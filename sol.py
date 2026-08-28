@@ -182,7 +182,19 @@ while count < 5 :
         greater = n
     count += 1
 print(greater)"""   
-print("every one welcome")
+
+
+#Fizzbuzz
+"""a = int(input("Enter a number upto where u wanted: "))
+b = 1
+while a >= b:
+    if  b % 3 ==0 and b % 5 ==0:
+        print("FizzBuzz") 
+    elif b % 5 ==0:
+        print("Buzz")
+    elif b % 3 ==0:
+        print("Fizz")
+    b += 1"""        
             
 
 
